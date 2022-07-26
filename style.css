@@ -29,7 +29,9 @@
 .img-bg {
     background: var(--image-backg);
 }
-
+.about>div{
+    width: 50%;
+}
 
 
 
@@ -51,5 +53,21 @@
     }
     .banner-h1-rp {
         font-size: 30px;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about img{
+        width: 100%;
+    }
+    .about>div{
+        width: 100%;
+    }
+    .about-offer>div{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
     }
 }
